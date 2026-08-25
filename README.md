@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner.svg" alt="Zyvor AI — infrastructure software for the post-legacy estate. Migrate, Run, Operate, Scale." width="100%"/>
+  <img src="media/banner.svg" alt="Zyvor Stack — Migrate, Run, Network, Storage, AI/GPU, Deploy. One platform, one API, one operating model." width="100%"/>
 </p>
 
 <p align="center">
