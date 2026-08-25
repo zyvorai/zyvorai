@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="ZyvorAI">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1222"/>
+      <stop offset="45%" stop-color="#121a2e"/>
+      <stop offset="100%" stop-color="#1a1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0583a"/>
+      <stop offset="55%" stop-color="#ff8f3f"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0583a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <circle cx="980" cy="80" r="160" fill="url(#glow)" filter="url(#soft)"/>
+  <circle cx="200" cy="360" r="120" fill="#14b8a6" fill-opacity="0.08" filter="url(#soft)"/>
+
+  <!-- grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <path d="M0 84 H1280 M0 168 H1280 M0 252 H1280 M0 336 H1280"/>
+    <path d="M160 0 V420 M320 0 V420 M480 0 V420 M640 0 V420 M800 0 V420 M960 0 V420 M1120 0 V420"/>
+  </g>
+
+  <!-- mark -->
+  <rect x="72" y="128" width="56" height="56" rx="14" fill="url(#accent)"/>
+  <text x="100" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="28" font-weight="800" fill="#0c1222">Z</text>
+
+  <text x="148" y="158" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="42" font-weight="800" fill="#f8fafc" letter-spacing="-1.2">zyvor</text>
+  <text x="148" y="186" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="15" font-weight="600" fill="#94a3b8" letter-spacing="3">INFRASTRUCTURE SOFTWARE</text>
+
+  <text x="72" y="250" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="34" font-weight="700" fill="#ffffff">Leave lock-in.</text>
+  <text x="72" y="292" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="34" font-weight="700" fill="#ffffff">Run on KVM · KubeVirt · Kubernetes.</text>
+
+  <text x="72" y="340" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="16" fill="#cbd5e1">Migrate · Run · Operate · Assure  the Zyvor suite on zyvor.dev</text>
+
+  <!-- right panel chips -->
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial" font-size="13" font-weight="600">
+    <rect x="860" y="150" width="140" height="36" rx="18" fill="#f0583a" fill-opacity="0.18" stroke="#f0583a" stroke-opacity="0.5"/>
+    <text x="930" y="173" text-anchor="middle" fill="#fdba8c">MIGRATE</text>
+    <rect x="1020" y="150" width="140" height="36" rx="18" fill="#ff8f3f" fill-opacity="0.15" stroke="#ff8f3f" stroke-opacity="0.45"/>
+    <text x="1090" y="173" text-anchor="middle" fill="#fdba8c">RUN</text>
+    <rect x="860" y="202" width="140" height="36" rx="18" fill="#14b8a6" fill-opacity="0.15" stroke="#14b8a6" stroke-opacity="0.45"/>
+    <text x="930" y="225" text-anchor="middle" fill="#5eead4">OPERATE</text>
+    <rect x="1020" y="202" width="140" height="36" rx="18" fill="#64748b" fill-opacity="0.2" stroke="#94a3b8" stroke-opacity="0.35"/>
+    <text x="1090" y="225" text-anchor="middle" fill="#e2e8f0">ASSURE</text>
+  </g>
+
+  <rect x="72" y="368" width="220" height="4" rx="2" fill="url(#accent)"/>
+</svg>
