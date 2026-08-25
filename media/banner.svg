@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="ZyvorAI">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="svgTitle svgDesc" xml:space="preserve">
+  <style>@media (prefers-reduced-motion: reduce) { animate, animateTransform { display: none; } }</style>
+  <title id="svgTitle">Zyvor AI</title>
+  <desc id="svgDesc">Terminal window typing "Zyvor AI" with a scrolling list of the product suite categories: Migrate, Run, Operate, Scale.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0c1222"/>
@@ -17,6 +20,11 @@
     <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="28"/>
     </filter>
+    <filter id="winShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="clipWin"><rect x="40" y="30" width="1200" height="360" rx="16"/></clipPath>
+    <clipPath id="clipScroller"><rect x="80" y="278" width="1100" height="96"/></clipPath>
   </defs>
 
   <rect width="1280" height="420" fill="url(#bg)"/>
@@ -29,29 +37,49 @@
     <path d="M160 0 V420 M320 0 V420 M480 0 V420 M640 0 V420 M800 0 V420 M960 0 V420 M1120 0 V420"/>
   </g>
 
-  <!-- mark -->
-  <rect x="72" y="128" width="56" height="56" rx="14" fill="url(#accent)"/>
-  <text x="100" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="28" font-weight="800" fill="#0c1222">Z</text>
+  <!-- terminal window -->
+  <g filter="url(#winShadow)">
+    <rect x="40" y="30" width="1200" height="360" rx="16" fill="#0a0f1e" stroke="#f0583a" stroke-opacity="0.35"/>
+    <g clip-path="url(#clipWin)">
+      <rect x="40" y="30" width="1200" height="40" fill="#0f1526"/>
+    </g>
+    <line x1="40" y1="70" x2="1240" y2="70" stroke="#ffffff" stroke-opacity="0.06"/>
 
-  <text x="148" y="158" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="42" font-weight="800" fill="#f8fafc" letter-spacing="-1.2">zyvor</text>
-  <text x="148" y="186" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="15" font-weight="600" fill="#94a3b8" letter-spacing="3">INFRASTRUCTURE SOFTWARE</text>
-
-  <text x="72" y="250" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="34" font-weight="700" fill="#ffffff">Leave lock-in.</text>
-  <text x="72" y="292" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="34" font-weight="700" fill="#ffffff">Run on KVM � KubeVirt � Kubernetes.</text>
-
-  <text x="72" y="340" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial" font-size="16" fill="#cbd5e1">Migrate � Run � Operate � Assure  the Zyvor suite on zyvor.dev</text>
-
-  <!-- right panel chips -->
-  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial" font-size="13" font-weight="600">
-    <rect x="860" y="150" width="140" height="36" rx="18" fill="#f0583a" fill-opacity="0.18" stroke="#f0583a" stroke-opacity="0.5"/>
-    <text x="930" y="173" text-anchor="middle" fill="#fdba8c">MIGRATE</text>
-    <rect x="1020" y="150" width="140" height="36" rx="18" fill="#ff8f3f" fill-opacity="0.15" stroke="#ff8f3f" stroke-opacity="0.45"/>
-    <text x="1090" y="173" text-anchor="middle" fill="#fdba8c">RUN</text>
-    <rect x="860" y="202" width="140" height="36" rx="18" fill="#14b8a6" fill-opacity="0.15" stroke="#14b8a6" stroke-opacity="0.45"/>
-    <text x="930" y="225" text-anchor="middle" fill="#5eead4">OPERATE</text>
-    <rect x="1020" y="202" width="140" height="36" rx="18" fill="#64748b" fill-opacity="0.2" stroke="#94a3b8" stroke-opacity="0.35"/>
-    <text x="1090" y="225" text-anchor="middle" fill="#e2e8f0">ASSURE</text>
+    <circle cx="66" cy="50" r="6" fill="#475569"/>
+    <circle cx="86" cy="50" r="6" fill="#475569"/>
+    <circle cx="106" cy="50" r="6" fill="#475569"/>
+    <text x="640" y="55" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#64748b">zyvor — infrastructure shell</text>
+    <rect x="1180" y="40" width="20" height="20" rx="5" fill="url(#accent)"/>
+    <text x="1190" y="55" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial" font-size="12" font-weight="800" fill="#0c1222">Z</text>
   </g>
 
-  <rect x="72" y="368" width="220" height="4" rx="2" fill="url(#accent)"/>
+  <!-- body -->
+  <g font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+    <text x="80" y="120" font-size="16"><tspan fill="#ff8f3f">$ </tspan><tspan fill="#cbd5e1">whoami</tspan></text>
+
+    <text x="80" y="185" font-size="54" font-weight="800" fill="url(#accent)" letter-spacing="-1">Zyvor AI</text>
+    <rect x="378" y="145" width="12" height="46" fill="#ff8f3f">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1.1s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="80" y="222" font-size="18" fill="#94a3b8">infrastructure software for the post-legacy estate</text>
+
+    <text x="80" y="258" font-size="15"><tspan fill="#14b8a6">$ </tspan><tspan fill="#cbd5e1">zyvor suite --categories</tspan></text>
+
+    <g clip-path="url(#clipScroller)">
+      <g font-size="16">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-128" dur="7s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
+        <text x="80" y="298"><tspan fill="#f0583a">→ </tspan><tspan fill="#f8fafc" font-weight="700">Migrate  </tspan><tspan fill="#64748b">discover · export · convert · assure</tspan></text>
+        <text x="80" y="330"><tspan fill="#ff8f3f">→ </tspan><tspan fill="#f8fafc" font-weight="700">Run      </tspan><tspan fill="#64748b">Kubernetes · KubeVirt · libvirt</tspan></text>
+        <text x="80" y="362"><tspan fill="#14b8a6">→ </tspan><tspan fill="#f8fafc" font-weight="700">Operate  </tspan><tspan fill="#64748b">deploy · observe · schedule · automate</tspan></text>
+        <text x="80" y="394"><tspan fill="#94a3b8">→ </tspan><tspan fill="#f8fafc" font-weight="700">Scale    </tspan><tspan fill="#64748b">clusters · compliance · Community Edition</tspan></text>
+        <text x="80" y="426"><tspan fill="#f0583a">→ </tspan><tspan fill="#f8fafc" font-weight="700">Migrate  </tspan><tspan fill="#64748b">discover · export · convert · assure</tspan></text>
+        <text x="80" y="458"><tspan fill="#ff8f3f">→ </tspan><tspan fill="#f8fafc" font-weight="700">Run      </tspan><tspan fill="#64748b">Kubernetes · KubeVirt · libvirt</tspan></text>
+        <text x="80" y="490"><tspan fill="#14b8a6">→ </tspan><tspan fill="#f8fafc" font-weight="700">Operate  </tspan><tspan fill="#64748b">deploy · observe · schedule · automate</tspan></text>
+        <text x="80" y="522"><tspan fill="#94a3b8">→ </tspan><tspan fill="#f8fafc" font-weight="700">Scale    </tspan><tspan fill="#64748b">clusters · compliance · Community Edition</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="80" y="404" width="220" height="4" rx="2" fill="url(#accent)"/>
 </svg>
