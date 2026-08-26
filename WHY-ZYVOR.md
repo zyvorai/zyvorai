@@ -1,7 +1,7 @@
 # Why Zyvor
 
 <p align="center">
-  <img src="media/banner.svg" alt="ZyvorAI" width="100%"/>
+  <img src="media/banner.svg" alt="Zyvor" width="100%"/>
 </p>
 
 <p align="center"><b>Open foundations. Commercial products. Operator-ready.</b></p>

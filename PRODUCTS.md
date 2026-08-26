@@ -12,16 +12,16 @@ Canonical pages: **[zyvor.dev/products](https://zyvor.dev/products)** · **[zyvo
 
 ## Migrate
 
-### HyperSDK Platform
-> Multi-cloud VM migration control plane — discover, export, orchestrate.
+### Transiva
+> Multi-cloud VM migration control plane — discover, export, orchestrate. Lands on KVM, KubeVirt, and Machina fleet cloud.
 
 - **Buy when:** Leaving a proprietary hypervisor / HCI; multi-site export; air-gap bundles  
-- **CTA:** [Product](https://zyvor.dev/hypersdk) · [Trial](https://zyvor.dev/contact?intent=trial&product=hypersdk) · [Demo](https://zyvor.dev/schedule)
+- **CTA:** [Product](https://zyvor.dev/zyvor-ai-platform) · [Trial](https://zyvor.dev/contact?intent=trial&product=transiva) · [Demo](https://zyvor.dev/schedule) · [GitHub](https://github.com/zyvorai/transiva)
 
-### hyper2kvm
-> Any hypervisor disk → boot-ready KVM — built for throughput.
+### k2kvm
+> Any hypervisor disk → boot-ready KVM — built for throughput. Community Edition: **h2kvm**.
 
-- **CTA:** [Product](https://zyvor.dev/hyper2kvm) · [GitHub](https://github.com/zyvorai/hyper2kvm)
+- **CTA:** [Product](https://zyvor.dev/k2kvm) · [GitHub CE](https://github.com/zyvorai/h2kvm)
 
 ### GuestKit
 > Inspect and repair VM disks without booting the guest.
@@ -71,8 +71,8 @@ Canonical pages: **[zyvor.dev/products](https://zyvor.dev/products)** · **[zyvo
 
 ## Bundle narratives
 
-1. **Hypervisor exit** — HyperSDK + hyper2kvm + GuestKit → [program](https://zyvor.dev/hypervisor-exit)  
-2. **Private cloud run** — Zeus + Veyron + Hermes + Atlas  
+1. **Hypervisor exit** — Transiva + k2kvm + GuestKit → [program](https://zyvor.dev/hypervisor-exit)  
+2. **Private cloud run** — Zeus + Veyron + Hermes + Atlas + Machina  
 3. **AI / GPU estate** — Forge + Janus (+ IronWolf for metal)  
 4. **Edge reliability** — Zyvor Relay  
 5. **Assurance** — Zyvor Argus on every release train  

@@ -4,15 +4,17 @@ Org: [github.com/zyvorai](https://github.com/zyvorai)
 
 Repos drop the historical `zyvor-` prefix where applicable (`argus`, `relay`, `janus`, `fabric`). Product marketing names on the site may still say **Zyvor Argus**, **Zyvor Relay**, etc.
 
+Public brand is **Zyvor** (not “Zyvor AI Labs”). Legal entity **ZyvorAI Labs Private Limited** stays in copyright/LICENSE only.
+
 ## Flagship / platform
 
 | Repo | Role |
 |------|------|
 | [zyvorai/zyvorai](https://github.com/zyvorai/zyvorai) | This repo — marketing & product narrative |
-| [zyvorai/hypersdk-web](https://github.com/zyvorai/hypersdk-web) | Marketing website (zyvor.dev) |
+| [zyvorai/zyvor-web](https://github.com/zyvorai/zyvor-web) | Marketing website (zyvor.dev) |
 | [zyvorai/.github](https://github.com/zyvorai/.github) | Org profile README |
-| [zyvorai/hypersdk](https://github.com/zyvorai/hypersdk) | HyperSDK provider / export layer |
-| [zyvorai/hyper2kvm](https://github.com/zyvorai/hyper2kvm) | Conversion engine |
+| [zyvorai/transiva](https://github.com/zyvorai/transiva) | Transiva — migration control plane |
+| [zyvorai/h2kvm](https://github.com/zyvorai/h2kvm) | k2kvm Community Edition (h2kvm) |
 | [zyvorai/guestkit](https://github.com/zyvorai/guestkit) | Offline disk intelligence |
 
 ## Reliability & assurance

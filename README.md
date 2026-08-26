@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="media/banner.svg" alt="Zyvor Stack — Migrate, Run, Network, Storage, AI/GPU, Trust, Deploy. One platform, one API, one operating model." width="100%"/>
+  <img src="media/banner.svg" alt="Zyvor — Leave lock-in. Run on KVM, KubeVirt, Kubernetes." width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://zyvor.dev"><img src="https://img.shields.io/badge/Website-zyvor.dev-f0583a?style=for-the-badge&labelColor=0c1222" alt="Website"/></a>
-  <a href="https://zyvor.dev/products"><img src="https://img.shields.io/badge/Products-24+-14b8a6?style=for-the-badge&labelColor=0c1222" alt="Products"/></a>
+  <a href="https://zyvor.dev/products"><img src="https://img.shields.io/badge/Products-suite-14b8a6?style=for-the-badge&labelColor=0c1222" alt="Products"/></a>
   <a href="https://zyvor.dev/schedule"><img src="https://img.shields.io/badge/Book_a_demo-Talk_to_engineering-ff8f3f?style=for-the-badge&labelColor=0c1222" alt="Demo"/></a>
   <a href="https://zyvor.dev/trial"><img src="https://img.shields.io/badge/Start-Trial_hub-64748b?style=for-the-badge&labelColor=0c1222" alt="Trial"/></a>
 </p>
@@ -24,9 +24,9 @@
 
 | You feel this | We sell this |
 |---------------|--------------|
-| License shock / HCI lock-in | **HyperSDK + hyper2kvm + GuestKit** — discover → export → convert → assure |
+| License shock / HCI lock-in | **Transiva + k2kvm + GuestKit** — discover → export → convert → assure |
 | Cloud bill regret | **Repatriation** onto private Kubernetes you control |
-| Five consoles for day-2 | **Zeus · Hermes · Veyron · Atlas · PacketWolf · Forge · IronWolf** |
+| Five consoles for day-2 | **Zeus · Hermes · Veyron · Machina · Atlas · PacketWolf · Forge · IronWolf** |
 | Alerts that “probably ran” | **Zyvor Relay** — Accept → Notify → Ack → Act → Verify |
 | Releases outrunning QA | **Zyvor Argus** — specs → Playwright → Mission Control |
 
@@ -46,8 +46,8 @@
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 01 | **[HyperSDK Platform](https://zyvor.dev/hypersdk)** | Multi-cloud VM migration control plane | [Open →](https://zyvor.dev/hypersdk) |
-| 02 | **[hyper2kvm](https://zyvor.dev/hyper2kvm)** | Any disk → boot-ready KVM | [Open →](https://zyvor.dev/hyper2kvm) |
+| 01 | **[Transiva](https://zyvor.dev/zyvor-ai-platform)** | Multi-cloud VM migration control plane | [Open →](https://zyvor.dev/zyvor-ai-platform) |
+| 02 | **[k2kvm](https://zyvor.dev/k2kvm)** | Any hypervisor disk → boot-ready KVM | [Open →](https://zyvor.dev/k2kvm) |
 | 03 | **[GuestKit](https://zyvor.dev/guestkit)** | Inspect & repair disks without guest boot | [Open →](https://zyvor.dev/guestkit) |
 
 ### 2 · Run
@@ -90,7 +90,7 @@
   <a href="https://github.com/zyvorai/argus"><img src="https://img.shields.io/badge/Argus-QA_assurance-0c1222?style=flat-square&color=f0583a" alt="Argus"/></a>
 </p>
 
-Also public engineering surfaces: [`hypersdk`](https://github.com/zyvorai/hypersdk) · [`hyper2kvm`](https://github.com/zyvorai/hyper2kvm) · [`guestkit`](https://github.com/zyvorai/guestkit) · [`ephemera`](https://github.com/zyvorai/ephemera) · [`relay`](https://github.com/zyvorai/relay)
+Also public engineering surfaces: [`transiva`](https://github.com/zyvorai/transiva) · [`h2kvm`](https://github.com/zyvorai/h2kvm) · [`guestkit`](https://github.com/zyvorai/guestkit) · [`ephemera`](https://github.com/zyvorai/ephemera) · [`relay`](https://github.com/zyvorai/relay)
 
 ---
 
@@ -99,8 +99,8 @@ Also public engineering surfaces: [`hypersdk`](https://github.com/zyvorai/hypers
 ```text
   HYPERVISOR EXIT          PRIVATE CLOUD RUN           AI / GPU ESTATE
   ───────────────          ─────────────────           ───────────────
-  HyperSDK Platform   →    Zeus OS + Veyron       →    Forge
-  hyper2kvm           →    Hermes + Atlas         →    Janus (sim)
+  Transiva            →    Zeus OS + Veyron       →    Forge
+  k2kvm               →    Hermes + Atlas         →    Janus (sim)
   GuestKit            →    PacketWolf             →    IronWolf (metal)
 
   EDGE RELIABILITY         RELEASE ASSURANCE
@@ -142,11 +142,11 @@ Marketing & product narrative for GitHub — not the website build.
 | [CONTACT.md](CONTACT.md) | Intent-based routing |
 | [ORG.md](ORG.md) | `zyvorai/*` GitHub map |
 
-Website source (private): [`zyvorai/hypersdk-web`](https://github.com/zyvorai/hypersdk-web) → deploys **[zyvor.dev](https://zyvor.dev)**
+Website source (private): [`zyvorai/zyvor-web`](https://github.com/zyvorai/zyvor-web) → deploys **[zyvor.dev](https://zyvor.dev)**
 
 ---
 
 <p align="center">
-  <sub><b>ZyvorAI Labs Private Limited</b> · <a href="https://zyvor.dev">zyvor.dev</a> · <a href="https://github.com/zyvorai">github.com/zyvorai</a></sub><br/>
+  <sub><b>Zyvor</b> · <a href="https://zyvor.dev">zyvor.dev</a> · <a href="https://github.com/zyvorai">github.com/zyvorai</a></sub><br/>
   <sub>© 2026 ZyvorAI Labs Private Limited. All rights reserved.</sub>
 </p>
