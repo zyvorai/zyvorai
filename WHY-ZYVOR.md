@@ -26,6 +26,7 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 |--|--|
 | **KVM-honest** | KubeVirt, libvirt, and open disk formats as first-class citizens |
 | **Operator-shaped** | Manuals, consoles, and trials on [zyvor.dev](https://zyvor.dev) |
+| **Private-cloud native** | **Axiom** for day-2 k3s/K8s ops; **Ragnarok** for confidential attestation |
 | **On-prem capable** | Edge / air-gap paths — not “our SaaS required to run your control plane” |
 | **Commercial where it matters** | EULA + support on control planes; Apache-2.0 on Community tools |
 
@@ -34,6 +35,7 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 - Not a contractual “99.99% forever” slogan  
 - Not a VMware clone for its own sake  
 - Not slideware without deployable software  
+- Not Aether — that product is retired; **Axiom** is the private-cloud control plane  
 
 ---
 
@@ -41,10 +43,10 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 
 | Funnel | Line |
 |--------|------|
-| **Exit** | Export and convert without stranding guest state. |
-| **Run** | Operate VMs and apps on Kubernetes without five consoles. |
+| **Exit** | Discover with Scout, simulate with Chimera, convert with h2kvm, assure with GuestKit. |
+| **Run** | Operate VMs and apps on Kubernetes without five consoles — Axiom, Zeus, Iris, Kryton, Haven. |
 | **Operate** | GPU, metal, packets, storage intent, and reliability loops in one suite. |
-| **Assure** | Argus turns specs into Playwright evidence after every deploy. |
+| **Assure** | Argus + Kairo + KubeFlight turn specs into evidence before and after every deploy. |
 
 ---
 
@@ -53,6 +55,7 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 | Surface | URL |
 |---------|-----|
 | Product grid | https://zyvor.dev/products |
+| Axiom | https://zyvor.dev/axiom |
 | Compare | https://zyvor.dev/compare |
 | Pricing | https://zyvor.dev/pricing |
 | Docs | https://zyvor.dev/docs |

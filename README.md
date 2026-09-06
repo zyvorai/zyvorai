@@ -24,11 +24,11 @@
 
 | You feel this | We sell this |
 |---------------|--------------|
-| License shock / HCI lock-in | **Transiva + k2kvm + GuestKit** — discover → export → convert → assure |
+| License shock / HCI lock-in | **Transiva + Scout + Chimera + h2kvm + GuestKit** — discover → simulate → convert → assure |
 | Cloud bill regret | **Repatriation** onto private Kubernetes you control |
-| Five consoles for day-2 | **Zeus · Hermes · Veyron · Machina · Atlas · PacketWolf · Forge · IronWolf** |
-| Alerts that “probably ran” | **Zyvor Relay** — Accept → Notify → Ack → Act → Verify |
-| Releases outrunning QA | **Zyvor Argus** — specs → Playwright → Mission Control |
+| Five consoles for day-2 | **Axiom · Zeus · Iris · Veyron · Kryton · Haven · Machina · Atlas · PacketWolf · Forge · IronWolf** |
+| Alerts that “probably ran” | **Zyvor Relay** (+ Nodra at the edge) — Accept → Notify → Ack → Act → Verify |
+| Releases outrunning QA | **Argus · Kairo · KubeFlight** — specs, blast radius, preflight |
 
 > Open foundations (**KVM · KubeVirt · Kubernetes**). Commercial products that ship with manuals, trials, and support — not slideware.
 
@@ -46,51 +46,63 @@
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 01 | **[Transiva](https://zyvor.dev/zyvor-ai-platform)** | Multi-cloud VM migration control plane | [Open →](https://zyvor.dev/zyvor-ai-platform) |
-| 02 | **[k2kvm](https://zyvor.dev/k2kvm)** | Any hypervisor disk → boot-ready KVM | [Open →](https://zyvor.dev/k2kvm) |
-| 03 | **[GuestKit](https://zyvor.dev/guestkit)** | Inspect & repair disks without guest boot | [Open →](https://zyvor.dev/guestkit) |
+| 01 | **[Transiva](https://zyvor.dev/transiva)** | Enterprise workload mobility & migration control plane | [Open →](https://zyvor.dev/transiva) |
+| 02 | **[Scout](https://zyvor.dev/scout)** | Migration discovery & readiness before migration risk | [GitHub](https://github.com/zyvorai/scout) |
+| 03 | **[Chimera](https://zyvor.dev/chimera)** | Disposable vSphere persona for Transiva export / NFC tests | [GitHub](https://github.com/zyvorai/chimera) |
+| 04 | **[h2kvm](https://zyvor.dev/h2kvm)** | Any hypervisor disk → boot-ready KVM | [GitHub](https://github.com/zyvorai/h2kvm) |
+| 05 | **[GuestKit](https://zyvor.dev/guestkit)** | Inspect & repair disks without guest boot | [GitHub](https://github.com/zyvorai/guestkit) |
 
 ### 2 · Run
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 04 | **[Zeus OS](https://zyvor.dev/zeus-os)** | Visual infrastructure operating system | [Open →](https://zyvor.dev/zeus-os) |
-| 05 | **[Hermes](https://zyvor.dev/hermes)** | Application operating layer for Kubernetes | [Open →](https://zyvor.dev/hermes) |
-| 06 | **[Veyron](https://zyvor.dev/veyron)** | Declarative KubeVirt templates & blueprints | [Open →](https://zyvor.dev/veyron) |
-| 07 | **[Machina](https://zyvor.dev/machina)** | Cloud-native libvirt / KVM ops | [Open →](https://zyvor.dev/machina) |
-| 08 | **[Zyvor Fabric](https://zyvor.dev/zyvor-fabric)** | Full VM management on Ephemera | [Open →](https://zyvor.dev/zyvor-fabric) |
-| 09 | **[Ephemera](https://zyvor.dev/ephemera)** | Disposable compute (QEMU / CH / Firecracker) | [Open →](https://zyvor.dev/ephemera) |
+| 06 | **[Zeus OS](https://zyvor.dev/zeus-os)** | Visual infrastructure OS for KubeVirt fleets | [Open →](https://zyvor.dev/zeus-os) |
+| 07 | **[Veyron](https://zyvor.dev/veyron)** | Declarative KubeVirt templates & blueprints | [Open →](https://zyvor.dev/veyron) |
+| 08 | **[Kryton](https://zyvor.dev/kryton)** | Windows virtualization — one machine API across demo / lab / KubeVirt | [GitHub](https://github.com/zyvorai/kryton) |
+| 09 | **[Iris](https://zyvor.dev/iris)** | Application operating layer for Kubernetes | [GitHub](https://github.com/zyvorai/iris) |
+| 10 | **[Haven](https://zyvor.dev/haven)** | Identity plane — Keycloak + Postgres as one product | [GitHub](https://github.com/zyvorai/haven) |
+| 11 | **[Machina](https://zyvor.dev/machina)** | Cloud-native libvirt / KVM ops | [Open →](https://zyvor.dev/machina) |
+| 12 | **[Zyvor Fabric](https://zyvor.dev/zyvor-fabric)** | FluxVM-driven VM control plane | [GitHub](https://github.com/zyvorai/fabric) |
+| 13 | **[FluxVM](https://zyvor.dev/fluxvm)** | Disposable compute (QEMU / CH / Firecracker) | [GitHub](https://github.com/zyvorai/fluxvm) |
 
 ### 3 · Operate
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 10 | **[Aether](https://zyvor.dev/aether)** | One deploy story across Podman / K8s / KubeVirt / metal | [Open →](https://zyvor.dev/aether) |
-| 11 | **[Ragnarok](https://zyvor.dev/ragnarok)** | Confidential + disposable VM fabric | [Open →](https://zyvor.dev/ragnarok) |
-| 12 | **[Atlas](https://zyvor.dev/atlas)** | Storage control plane — intent, not pools | [Open →](https://zyvor.dev/atlas) |
-| 13 | **[PacketWolf](https://zyvor.dev/packetwolf)** | Every connection → the process that made it | [Open →](https://zyvor.dev/packetwolf) |
-| 14 | **[Forge](https://zyvor.dev/forge)** | GPU & AI infrastructure on Kubernetes | [Open →](https://zyvor.dev/forge) |
-| 15 | **[IronWolf](https://zyvor.dev/ironwolf)** | Bare-metal lifecycle (Metal3 + policy) | [Open →](https://zyvor.dev/ironwolf) |
-| 16 | **[Zyvor Relay](https://zyvor.dev/zyvor-relay)** | Accept → Notify → Ack → Act → Verify | [Open →](https://zyvor.dev/zyvor-relay) |
+| 14 | **[Axiom](https://zyvor.dev/axiom)** | k8s-native private cloud — k3s → production, one console | [Docs](https://zyvor.dev/docs/axiom) |
+| 15 | **[Ragnarok](https://zyvor.dev/ragnarok)** | Confidential computing & attestation for KubeVirt | [Open →](https://zyvor.dev/ragnarok) |
+| 16 | **[Atlas](https://zyvor.dev/atlas)** | Storage control plane — intent, not pools | [Open →](https://zyvor.dev/atlas) |
+| 17 | **[PacketWolf](https://zyvor.dev/packetwolf)** | Every connection → the process that made it | [Open →](https://zyvor.dev/packetwolf) |
+| 18 | **[Forge](https://zyvor.dev/forge)** | GPU & AI infrastructure on Kubernetes | [Open →](https://zyvor.dev/forge) |
+| 19 | **[IronWolf](https://zyvor.dev/ironwolf)** | Bare-metal lifecycle (Metal3 + policy) | [Open →](https://zyvor.dev/ironwolf) |
+| 20 | **[Zyvor Relay](https://zyvor.dev/zyvor-relay)** | Accept → Notify → Ack → Act → Verify | [Open →](https://zyvor.dev/zyvor-relay) |
 
 ### 4 · Scale & compliance
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 17 | **[HyperCluster](https://zyvor.dev/hypercluster)** | Kubernetes lifecycle for bare metal / private cloud | [Open →](https://zyvor.dev/hypercluster) |
-| 18 | **[ZySign](https://zyvor.dev/zysign)** | macOS DSC for MCA21 V3 eFiling | [Open →](https://zyvor.dev/zysign) |
+| 21 | **[HyperCluster](https://zyvor.dev/hypercluster)** | Kubernetes lifecycle for bare metal / private cloud | [GitHub](https://github.com/zyvorai/hypercluster) |
+| 22 | **[ZySign](https://zyvor.dev/zysign)** | macOS DSC for MCA21 V3 eFiling | [GitHub](https://github.com/zyvorai/zysign) |
 
 ### 5 · Community Edition
 
 <p align="center">
+  <a href="https://github.com/zyvorai/guestkit"><img src="https://img.shields.io/badge/guestkit-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="guestkit"/></a>
+  <a href="https://github.com/zyvorai/fluxvm"><img src="https://img.shields.io/badge/FluxVM-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="FluxVM"/></a>
+  <a href="https://github.com/zyvorai/fabric"><img src="https://img.shields.io/badge/Fabric-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Fabric"/></a>
+  <a href="https://github.com/zyvorai/kryton"><img src="https://img.shields.io/badge/Kryton-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Kryton"/></a>
+  <a href="https://github.com/zyvorai/haven"><img src="https://img.shields.io/badge/Haven-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Haven"/></a>
+  <a href="https://github.com/zyvorai/scout"><img src="https://img.shields.io/badge/Scout-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Scout"/></a>
+  <a href="https://github.com/zyvorai/chimera"><img src="https://img.shields.io/badge/Chimera-Apache--2.0-0c1222?style=flat-square&color=ff8f3f" alt="Chimera"/></a>
+  <a href="https://github.com/zyvorai/nodra"><img src="https://img.shields.io/badge/Nodra-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Nodra"/></a>
+  <a href="https://github.com/zyvorai/kairo"><img src="https://img.shields.io/badge/Kairo-change_intel-0c1222?style=flat-square&color=f0583a" alt="Kairo"/></a>
+  <a href="https://github.com/zyvorai/kubeflight"><img src="https://img.shields.io/badge/KubeFlight-preflight-0c1222?style=flat-square&color=f0583a" alt="KubeFlight"/></a>
   <a href="https://github.com/zyvorai/netevd"><img src="https://img.shields.io/badge/netevd-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="netevd"/></a>
-  <a href="https://github.com/zyvorai/netctl"><img src="https://img.shields.io/badge/netctl-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="netctl"/></a>
-  <a href="https://github.com/zyvorai/cloud-netconfig"><img src="https://img.shields.io/badge/cloud--netconfig-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="cloud-netconfig"/></a>
   <a href="https://github.com/zyvorai/janus"><img src="https://img.shields.io/badge/Janus-GPU_sim-0c1222?style=flat-square&color=ff8f3f" alt="Janus"/></a>
   <a href="https://github.com/zyvorai/argus"><img src="https://img.shields.io/badge/Argus-QA_assurance-0c1222?style=flat-square&color=f0583a" alt="Argus"/></a>
 </p>
 
-Also public engineering surfaces: [`transiva`](https://github.com/zyvorai/transiva) · [`h2kvm`](https://github.com/zyvorai/h2kvm) · [`guestkit`](https://github.com/zyvorai/guestkit) · [`ephemera`](https://github.com/zyvorai/ephemera) · [`relay`](https://github.com/zyvorai/relay)
+Also public: [`h2kvm`](https://github.com/zyvorai/h2kvm) · [`iris`](https://github.com/zyvorai/iris) · [`relay-pubsub`](https://github.com/zyvorai/relay-pubsub) · [`relay-edge`](https://github.com/zyvorai/relay-edge) · [`netctl`](https://github.com/zyvorai/netctl) · [`cloud-netconfig`](https://github.com/zyvorai/cloud-netconfig)
 
 ---
 
@@ -99,14 +111,14 @@ Also public engineering surfaces: [`transiva`](https://github.com/zyvorai/transi
 ```text
   HYPERVISOR EXIT          PRIVATE CLOUD RUN           AI / GPU ESTATE
   ───────────────          ─────────────────           ───────────────
-  Transiva            →    Zeus OS + Veyron       →    Forge
-  k2kvm               →    Hermes + Atlas         →    Janus (sim)
-  GuestKit            →    PacketWolf             →    IronWolf (metal)
+  Transiva + Scout    →    Axiom + Zeus + Veyron  →    Forge
+  Chimera + h2kvm     →    Iris + Haven + Kryton  →    Janus (sim)
+  GuestKit            →    PacketWolf + Atlas     →    IronWolf (metal)
 
   EDGE RELIABILITY         RELEASE ASSURANCE
   ────────────────         ─────────────────
-  Zyvor Relay    →         Zyvor Argus
-  (Ack · Act · Verify)     (Specs → Playwright)
+  Zyvor Relay + Nodra →    Argus · Kairo · KubeFlight
+  (Ack · Act · Verify)     (specs · blast · preflight)
 ```
 
 <p align="center">
