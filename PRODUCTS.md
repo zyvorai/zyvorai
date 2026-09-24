@@ -50,8 +50,9 @@ Canonical pages: **[zyvor.dev/products](https://zyvor.dev/products)** · **[zyvo
 | **Iris** | Application operating layer — one door for every app | [Site](https://zyvor.dev/iris) · [Repo](https://github.com/zyvorai/iris) |
 | **Haven** | Identity plane — Keycloak + Postgres as one product | [Site](https://zyvor.dev/haven) · [Repo](https://github.com/zyvorai/haven) |
 | **Machina** | Cloud-native libvirt / KVM operations | [Site](https://zyvor.dev/machina) |
-| **Zyvor Fabric** | FluxVM-driven VM management without libvirt | [Site](https://zyvor.dev/zyvor-fabric) · [Repo](https://github.com/zyvorai/fabric) |
-| **FluxVM** | Disposable VMs — QEMU / Cloud Hypervisor / Firecracker | [Site](https://zyvor.dev/fluxvm) · [Repo](https://github.com/zyvorai/fluxvm) |
+| **Zorvia** | The control plane for KubeVirt VMs — CLI, TUI and web console on one API (Apache-2.0) | [Site](https://zyvor.dev/zorvia) · [Repo](https://github.com/zyvorai/zorvia) |
+| **Zyvor Fabric** | Private cloud control plane for Linux — VMs, networking, storage, security; AI workloads (beta); Keep agent workstation (Apache-2.0) | [Site](https://zyvor.dev/zyvor-fabric) · [Repo](https://github.com/zyvorai/fabric) |
+| **FluxVM** | Run real VMs with a real API — one Rust control plane over Firecracker / Cloud Hypervisor / QEMU-KVM (Apache-2.0) | [Site](https://zyvor.dev/fluxvm) · [Repo](https://github.com/zyvorai/fluxvm) |
 
 ---
 
@@ -63,7 +64,9 @@ Canonical pages: **[zyvor.dev/products](https://zyvor.dev/products)** · **[zyvo
 | **Ragnarok** | Confidential computing & attestation for KubeVirt | [Site](https://zyvor.dev/ragnarok) |
 | **Atlas** | Storage control plane — intent, not pools | [Site](https://zyvor.dev/atlas) |
 | **PacketWolf** | Every connection → the process that made it | [Site](https://zyvor.dev/packetwolf) |
+| **Paqtra** | Free Apache-2.0 community edition of PacketWolf — Cilium-native network observability for Kubernetes (Hubble flows, "why denied?" path investigation, drop analytics, service map, policy simulate). Observe-first, read-only toward the datapath; enforcement stays in Cilium CNPs. Choose when Cilium is already your CNI and you want flows, path investigation and policy preview in one place | [Site](https://zyvor.dev/paqtra) · [Repo](https://github.com/zyvorai/paqtra) |
 | **Forge** | GPU / AI infrastructure OS on Kubernetes | [Site](https://zyvor.dev/forge) |
+| **Zynera** | AI infrastructure control plane — private OpenAI-compatible gateway, evaluation-gated model promotion, RAG, federated training, GPU scheduling and cost control | [Site](https://zyvor.dev/zynera) · [Repo](https://github.com/zyvorai/zynera) |
 | **IronWolf** | Bare-metal lifecycle (Metal3 + enterprise policy) | [Site](https://zyvor.dev/ironwolf) |
 | **Zyvor Relay** | Accept → Notify → Ack → Act → Verify | [Site](https://zyvor.dev/zyvor-relay) |
 

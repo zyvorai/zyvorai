@@ -97,6 +97,7 @@
   <a href="https://github.com/zyvorai/nodra"><img src="https://img.shields.io/badge/Nodra-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Nodra"/></a>
   <a href="https://github.com/zyvorai/kairo"><img src="https://img.shields.io/badge/Kairo-change_intel-0c1222?style=flat-square&color=f0583a" alt="Kairo"/></a>
   <a href="https://github.com/zyvorai/kubeflight"><img src="https://img.shields.io/badge/KubeFlight-preflight-0c1222?style=flat-square&color=f0583a" alt="KubeFlight"/></a>
+  <a href="https://github.com/zyvorai/paqtra"><img src="https://img.shields.io/badge/Paqtra-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Paqtra"/></a>
   <a href="https://github.com/zyvorai/netevd"><img src="https://img.shields.io/badge/netevd-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="netevd"/></a>
   <a href="https://github.com/zyvorai/janus"><img src="https://img.shields.io/badge/Janus-GPU_sim-0c1222?style=flat-square&color=ff8f3f" alt="Janus"/></a>
   <a href="https://github.com/zyvorai/argus"><img src="https://img.shields.io/badge/Argus-QA_assurance-0c1222?style=flat-square&color=f0583a" alt="Argus"/></a>
