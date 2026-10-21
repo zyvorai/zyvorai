@@ -46,7 +46,7 @@ Mac-native products and the Apple path of the stack: FluxVM drives Apple's Virtu
 
 | Product | Pitch | Open |
 |---------|-------|------|
-| **Velora** | VMs, models and clusters on your Mac — Debian, Ubuntu and macOS guests in one click, Console & Command over vsock, local MLX models behind an OpenAI-compatible gateway, k3s, FluxVM, Kairon, fleet of Macs. Pre-release 0.4, BSL 1.1, macOS 26+ | [Site](https://zyvor.dev/velora) · [Releases](https://github.com/zyvorai/velora) |
+| **Velora** | VMs, models and clusters on your Mac — Debian, Ubuntu and macOS guests in one click, Console & Command over vsock, local MLX models behind an OpenAI-compatible gateway, k3s, FluxVM, Kairon, fleet of Macs. v0.4, BSL 1.1, macOS 26+ | [Site](https://zyvor.dev/velora) · [Releases](https://github.com/zyvorai/velora) |
 | **Gryvia for Apple** | Your Macs, scheduled — multi-tenant control plane for Apple Silicon fleets: unified-memory-aware admission, quotas, live GPU cores, model workbench, signed provenance (BUSL-1.1, source-available) | [Site](https://zyvor.dev/gryvia) · [Repo](https://github.com/zyvorai/zyvor-gryvia-apple) |
 | **Macora** | Your Mac's network, made clear — native SwiftUI app, Rust CLI and TUI, one-click diagnosis; read-only by default, zero dependencies (Apache-2.0) | [Site](https://zyvor.dev/macora) · [Repo](https://github.com/zyvorai/zyvor-macora) |
 | **Nivora** | See every connection on your Mac — per-app flows, DNS, routes, VPNs and FluxVM workloads; local-first, observe-first (BUSL-1.1, source-available) | [Site](https://zyvor.dev/nivora) · [Repo](https://github.com/zyvorai/zyvor-nivora) |
