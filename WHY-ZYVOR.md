@@ -27,6 +27,7 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 | **KVM-honest** | KubeVirt, libvirt, and open disk formats as first-class citizens |
 | **Operator-shaped** | Manuals, consoles, and trials on [zyvor.dev](https://zyvor.dev) |
 | **Private-cloud native** | **Axiom** for day-2 k3s/K8s ops; **Ragnarok** for confidential attestation |
+| **Mac-native too** | **Velora** runs Linux and macOS VMs and local MLX models on Apple Silicon; **FluxVM** drives Apple's Virtualization.framework, so one API spans laptop to Mac fleet (**Gryvia for Apple**) |
 | **On-prem capable** | Edge / air-gap paths — not “our SaaS required to run your control plane” |
 | **Commercial where it matters** | EULA + support on control planes; Apache-2.0 on Community tools |
 
@@ -44,9 +45,10 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 | Funnel | Line |
 |--------|------|
 | **Exit** | Discover with Scout, simulate with Chimera, convert with h2kvm, assure with GuestKit. |
-| **Run** | Operate VMs and apps on Kubernetes without five consoles — Axiom, Zeus, Iris, Kryton, Haven. |
-| **Operate** | GPU, metal, packets, storage intent, and reliability loops in one suite. |
-| **Assure** | Argus + Kairo + KubeFlight turn specs into evidence before and after every deploy. |
+| **Run** | Operate VMs and apps on Kubernetes without five consoles — Axiom, Zeus, Veyron, Kairon, Iris, Kryton, Haven. |
+| **Operate** | GPU, metal, eBPF networking, storage intent, and reliability loops in one suite. |
+| **Assure** | Argus + Kairo + KubeFlight turn specs into evidence before and after every deploy; Verixa and Kavira rehearse agents and replay outages. |
+| **Apple** | Velora for VMs and models on a Mac, Nivora and Macora to see its network, Gryvia for Apple to schedule a fleet of them. |
 
 ---
 
