@@ -66,14 +66,14 @@
     <text x="80" y="112" font-size="14"><tspan fill="#7ef29a">&#10095; </tspan><tspan fill="#dfe7ef">zyvor@infra:~$ </tspan><tspan fill="#9aa6b3">stack</tspan></text>
     <text x="80" y="146" font-size="14" font-weight="700" fill="url(#accent)">ZYVOR STACK · ONE API FABRIC</text>
 
-    <text x="80" y="180" font-size="13" fill="#f7f9fb" font-weight="700">MIGRATE</text><text x="184" y="180" font-size="13" fill="#94a3b8">Transiva &#183; h2kvm &#183; GuestKit &#183; Scout</text>
-    <text x="80" y="208" font-size="13" fill="#f7f9fb" font-weight="700">RUN</text><text x="184" y="208" font-size="13" fill="#94a3b8">Zeus &#183; Veyron &#183; Kairon &#183; FluxVM &#183; Fabric</text>
-    <text x="80" y="236" font-size="13" fill="#f7f9fb" font-weight="700">NETWORK</text><text x="184" y="236" font-size="13" fill="#94a3b8">PacketWolf &#183; Netra &#183; Rivora &#183; eBPF</text>
-    <text x="80" y="264" font-size="13" fill="#f7f9fb" font-weight="700">STORAGE</text><text x="184" y="264" font-size="13" fill="#94a3b8">Atlas &#183; Ceph &#183; NFS &#183; ZFS &#183; Longhorn</text>
-    <text x="80" y="292" font-size="13" fill="#f7f9fb" font-weight="700">AI / GPU</text><text x="184" y="292" font-size="13" fill="#94a3b8">Forge &#183; Gryvia &#183; Zynera &#183; Janus (sim)</text>
-    <text x="80" y="320" font-size="13" fill="#f7f9fb" font-weight="700">TRUST</text><text x="184" y="320" font-size="13" fill="#94a3b8">Ragnarok (confidential) &#183; Shukra (runtime)</text>
-    <text x="80" y="348" font-size="13" fill="#f7f9fb" font-weight="700">APPLE</text><text x="184" y="348" font-size="13" fill="#94a3b8">Velora &#183; Gryvia for Apple &#183; Macora &#183; Nivora</text>
-    <text x="80" y="376" font-size="13" fill="#f7f9fb" font-weight="700">DEPLOY</text><text x="184" y="376" font-size="13" fill="#94a3b8">HyperCluster &#183; IronWolf &#183; Axiom &#183; Kubernetes</text>
+    <text x="80" y="180" font-size="13" fill="#f0583a" font-weight="700">MIGRATE</text><text x="184" y="180" font-size="13" fill="#b4c0d0">Transiva &#183; h2kvm &#183; GuestKit &#183; Scout</text>
+    <text x="80" y="208" font-size="13" fill="#ff8f3f" font-weight="700">RUN</text><text x="184" y="208" font-size="13" fill="#b4c0d0">Zeus &#183; Veyron &#183; Kairon &#183; FluxVM &#183; Fabric</text>
+    <text x="80" y="236" font-size="13" fill="#14b8a6" font-weight="700">NETWORK</text><text x="184" y="236" font-size="13" fill="#b4c0d0">PacketWolf &#183; Netra &#183; Rivora &#183; eBPF</text>
+    <text x="80" y="264" font-size="13" fill="#38bdf8" font-weight="700">STORAGE</text><text x="184" y="264" font-size="13" fill="#b4c0d0">Atlas &#183; Ceph &#183; NFS &#183; ZFS &#183; Longhorn</text>
+    <text x="80" y="292" font-size="13" fill="#a78bfa" font-weight="700">AI / GPU</text><text x="184" y="292" font-size="13" fill="#b4c0d0">Forge &#183; Gryvia &#183; Zynera &#183; Janus (sim)</text>
+    <text x="80" y="320" font-size="13" fill="#f472b6" font-weight="700">TRUST</text><text x="184" y="320" font-size="13" fill="#b4c0d0">Ragnarok (confidential) &#183; Shukra (runtime)</text>
+    <text x="80" y="348" font-size="13" fill="#facc15" font-weight="700">APPLE</text><text x="184" y="348" font-size="13" fill="#b4c0d0">Velora &#183; Gryvia for Apple &#183; Macora &#183; Nivora</text>
+    <text x="80" y="376" font-size="13" fill="#60a5fa" font-weight="700">DEPLOY</text><text x="184" y="376" font-size="13" fill="#b4c0d0">HyperCluster &#183; IronWolf &#183; Axiom &#183; Kubernetes</text>
 
     <text x="80" y="410" font-size="14" fill="#7ef29a">&#10003; one platform &#183; one API &#183; one operating model</text>
 
