@@ -12,7 +12,6 @@ Only **public** repos are listed with links. Private products (Axiom, Ragnarok, 
 
 | Was | Now |
 |-----|-----|
-| Aether | **Axiom** (private repo) · site `/axiom` |
 | Ephemera | **FluxVM** — repo `zyvor-fluxvm` |
 | Hermes | **Iris** — repo `iris` |
 | hyper2kvm / HyperSDK | **h2kvm** (public) with **Transiva** as the control plane |
@@ -37,6 +36,7 @@ Only **public** repos are listed with links. Private products (Axiom, Ragnarok, 
 | [zeus-os](https://github.com/zyvorai/zeus-os) | Zeus OS (binaries, images, Helm chart, docs) |
 | [veyron](https://github.com/zyvorai/veyron) | Veyron — real VMs on Kubernetes |
 | [zyvor-kairon](https://github.com/zyvorai/zyvor-kairon) | Kairon — VM orchestration without KubeVirt or libvirt |
+| [Aether](https://github.com/zyvorai/Aether) | Aether — one YAML for Podman, Kubernetes and KubeVirt (Apache-2.0) |
 | [zyvor-fluxvm](https://github.com/zyvorai/zyvor-fluxvm) | FluxVM — Firecracker / Cloud Hypervisor / QEMU-KVM / Apple Virtualization.framework |
 | [zyvorai-fabric](https://github.com/zyvorai/zyvorai-fabric) | Zyvor Fabric |
 | [zyvor-zorvia](https://github.com/zyvorai/zyvor-zorvia) | Zorvia — KubeVirt VM control plane |

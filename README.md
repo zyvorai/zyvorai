@@ -36,7 +36,7 @@
 |---------------|--------------|
 | License shock / HCI lock-in | **Transiva + Scout + Chimera + h2kvm + GuestKit** — discover → simulate → convert → assure |
 | Cloud bill regret | **Repatriation** onto private Kubernetes you control |
-| Five consoles for day-2 | **Axiom · Zeus · Iris · Veyron · Kairon · Kryton · Haven · Machina · Atlas · PacketWolf · Netra · Forge · IronWolf** |
+| Five consoles for day-2 | **Axiom · Aether · Zeus · Iris · Veyron · Kairon · Kryton · Haven · Machina · Atlas · PacketWolf · Netra · Forge · IronWolf** |
 | Macs are the new dev and inference fleet | **Velora · Gryvia for Apple · Macora · Nivora** — VMs, local models and fleet scheduling on Apple Silicon |
 | Alerts that “probably ran” | **Zyvor Relay** (+ Nodra at the edge) — Accept → Notify → Ack → Act → Verify |
 | Releases outrunning QA | **Argus · Kairo · KubeFlight · Verixa · Kavira** — specs, blast radius, preflight, agent rehearsal, outage replay |
@@ -99,47 +99,49 @@ New here? Start with **[START-HERE.md](START-HERE.md)**: pick your goal, get the
 | 12 | **[Machina](https://zyvor.dev/machina)** | Private cloud on KVM — an OpenStack alternative in one command | [GitHub](https://github.com/zyvorai/zyvor-machina) |
 | 13 | **[Zyvor Fabric](https://zyvor.dev/zyvor-fabric)** | Private cloud control plane for Linux — VMs, networking, storage, security | [GitHub](https://github.com/zyvorai/zyvorai-fabric) |
 | 14 | **[FluxVM](https://zyvor.dev/fluxvm)** | One API over Firecracker / Cloud Hypervisor / QEMU-KVM / Apple Virtualization.framework | [GitHub](https://github.com/zyvorai/zyvor-fluxvm) |
+| 15 | **[Aether](https://zyvor.dev/aether)** | One YAML, three runtimes — Podman, Kubernetes, KubeVirt, with scored placement and migration | [GitHub](https://github.com/zyvorai/Aether) |
 
 ### 3 · Apple Silicon
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 15 | **[Velora](https://zyvor.dev/velora)** | VMs, models and clusters on your Mac — Linux and macOS guests, local MLX gateway, k3s, fleet | [GitHub](https://github.com/zyvorai/velora) |
-| 16 | **[Gryvia for Apple](https://zyvor.dev/gryvia)** | Your Macs, scheduled — multi-tenant control plane for Apple Silicon fleets | [GitHub](https://github.com/zyvorai/zyvor-gryvia-apple) |
-| 17 | **[Macora](https://zyvor.dev/macora)** | Your Mac's network, made clear — SwiftUI app, CLI and TUI | [GitHub](https://github.com/zyvorai/zyvor-macora) |
-| 18 | **[Nivora](https://zyvor.dev/nivora)** | See every connection on your Mac, per app | [GitHub](https://github.com/zyvorai/zyvor-nivora) |
-| 19 | **[Vytrix](https://zyvor.dev/vytrix)** | Read-only activity monitor for macOS and Linux | [GitHub](https://github.com/zyvorai/zyvor-vytrix) |
-| 20 | **Solvor · Teryon** | Private file Q&A for Keep · persistent SSH shells in Rust | [Solvor](https://github.com/zyvorai/solvor) · [Teryon](https://github.com/zyvorai/teryon) |
+| 16 | **[Velora](https://zyvor.dev/velora)** | VMs, models and clusters on your Mac — Linux and macOS guests, local MLX gateway, k3s, fleet | [GitHub](https://github.com/zyvorai/velora) |
+| 17 | **[Gryvia for Apple](https://zyvor.dev/gryvia)** | Your Macs, scheduled — multi-tenant control plane for Apple Silicon fleets | [GitHub](https://github.com/zyvorai/zyvor-gryvia-apple) |
+| 18 | **[Macora](https://zyvor.dev/macora)** | Your Mac's network, made clear — SwiftUI app, CLI and TUI | [GitHub](https://github.com/zyvorai/zyvor-macora) |
+| 19 | **[Nivora](https://zyvor.dev/nivora)** | See every connection on your Mac, per app | [GitHub](https://github.com/zyvorai/zyvor-nivora) |
+| 20 | **[Vytrix](https://zyvor.dev/vytrix)** | Read-only activity monitor for macOS and Linux | [GitHub](https://github.com/zyvorai/zyvor-vytrix) |
+| 21 | **Solvor · Teryon** | Private file Q&A for Keep · persistent SSH shells in Rust | [Solvor](https://github.com/zyvorai/solvor) · [Teryon](https://github.com/zyvorai/teryon) |
 
 ### 4 · Operate
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 21 | **[Axiom](https://zyvor.dev/axiom)** | k8s-native private cloud — k3s → production, one console | [Docs](https://zyvor.dev/docs/axiom) |
-| 22 | **[Ragnarok](https://zyvor.dev/ragnarok)** | Confidential computing & attestation for KubeVirt | [Open →](https://zyvor.dev/ragnarok) |
-| 23 | **[Atlas](https://zyvor.dev/atlas)** | Storage control plane — one API over Ceph, NFS, ZFS, Longhorn | [GitHub](https://github.com/zyvorai/zyvor-atlas) |
-| 24 | **[PacketWolf](https://zyvor.dev/packetwolf)** | Every connection → the process that made it | [Open →](https://zyvor.dev/packetwolf) |
-| 25 | **[Netra](https://zyvor.dev/netra)** | eBPF network observability and leased emergency deny rules, any CNI | [GitHub](https://github.com/zyvorai/zyvor-netra) |
-| 26 | **[Rivora](https://zyvor.dev/rivora) · [Shukra](https://zyvor.dev/shukra)** | eBPF load balancing · eBPF runtime security for KVM | [Rivora](https://github.com/zyvorai/zyvor-rivora) · [Shukra](https://github.com/zyvorai/zyvor-shukra) |
-| 27 | **[Forge](https://zyvor.dev/forge)** | GPU & AI infrastructure on Kubernetes | [Open →](https://zyvor.dev/forge) |
-| 28 | **[Gryvia](https://zyvor.dev/gryvia)** | GPU platform for large-model training — admission, RDMA/NVLink, metering | [GitHub](https://github.com/zyvorai/zyvor-gryvia) |
-| 29 | **[Zynera](https://zyvor.dev/zynera)** | AI infrastructure control plane — private OpenAI-compatible gateway, gated promotion | [Open →](https://zyvor.dev/zynera) |
-| 30 | **[IronWolf](https://zyvor.dev/ironwolf)** | Bare-metal lifecycle (Metal3 + policy) | [Open →](https://zyvor.dev/ironwolf) |
-| 31 | **[Zyvor Relay](https://zyvor.dev/zyvor-relay)** | Accept → Notify → Ack → Act → Verify | [Open →](https://zyvor.dev/zyvor-relay) |
+| 22 | **[Axiom](https://zyvor.dev/axiom)** | k8s-native private cloud — k3s → production, one console | [Docs](https://zyvor.dev/docs/axiom) |
+| 23 | **[Ragnarok](https://zyvor.dev/ragnarok)** | Confidential computing & attestation for KubeVirt | [Open →](https://zyvor.dev/ragnarok) |
+| 24 | **[Atlas](https://zyvor.dev/atlas)** | Storage control plane — one API over Ceph, NFS, ZFS, Longhorn | [GitHub](https://github.com/zyvorai/zyvor-atlas) |
+| 25 | **[PacketWolf](https://zyvor.dev/packetwolf)** | Every connection → the process that made it | [Open →](https://zyvor.dev/packetwolf) |
+| 26 | **[Netra](https://zyvor.dev/netra)** | eBPF network observability and leased emergency deny rules, any CNI | [GitHub](https://github.com/zyvorai/zyvor-netra) |
+| 27 | **[Rivora](https://zyvor.dev/rivora) · [Shukra](https://zyvor.dev/shukra)** | eBPF load balancing · eBPF runtime security for KVM | [Rivora](https://github.com/zyvorai/zyvor-rivora) · [Shukra](https://github.com/zyvorai/zyvor-shukra) |
+| 28 | **[Forge](https://zyvor.dev/forge)** | GPU & AI infrastructure on Kubernetes | [Open →](https://zyvor.dev/forge) |
+| 29 | **[Gryvia](https://zyvor.dev/gryvia)** | GPU platform for large-model training — admission, RDMA/NVLink, metering | [GitHub](https://github.com/zyvorai/zyvor-gryvia) |
+| 30 | **[Zynera](https://zyvor.dev/zynera)** | AI infrastructure control plane — private OpenAI-compatible gateway, gated promotion | [Open →](https://zyvor.dev/zynera) |
+| 31 | **[IronWolf](https://zyvor.dev/ironwolf)** | Bare-metal lifecycle (Metal3 + policy) | [Open →](https://zyvor.dev/ironwolf) |
+| 32 | **[Zyvor Relay](https://zyvor.dev/zyvor-relay)** | Accept → Notify → Ack → Act → Verify | [Open →](https://zyvor.dev/zyvor-relay) |
 
 ### 5 · Scale, edge & compliance
 
 | | Product | Sell | |
 |---:|---------|------|---|
-| 32 | **[HyperCluster](https://zyvor.dev/hypercluster)** | Kubernetes lifecycle for bare metal / private cloud | [GitHub](https://github.com/zyvorai/hypercluster) |
-| 33 | **[ZySign](https://zyvor.dev/zysign)** | macOS DSC for MCA21 V3 eFiling | [GitHub](https://github.com/zyvorai/zysign) |
-| 34 | **[Fleet](https://github.com/zyvorai/zyvorai-fleet) · [device-agent](https://github.com/zyvorai/zyvor-device-agent) · [ota](https://github.com/zyvorai/ota)** | Offline-first edge site control plane · hardware agent · signed A/B device updates | [GitHub](https://github.com/zyvorai/zyvorai-fleet) |
+| 33 | **[HyperCluster](https://zyvor.dev/hypercluster)** | Kubernetes lifecycle for bare metal / private cloud | [GitHub](https://github.com/zyvorai/hypercluster) |
+| 34 | **[ZySign](https://zyvor.dev/zysign)** | macOS DSC for MCA21 V3 eFiling | [GitHub](https://github.com/zyvorai/zysign) |
+| 35 | **[Fleet](https://github.com/zyvorai/zyvorai-fleet) · [device-agent](https://github.com/zyvorai/zyvor-device-agent) · [ota](https://github.com/zyvorai/ota)** | Offline-first edge site control plane · hardware agent · signed A/B device updates | [GitHub](https://github.com/zyvorai/zyvorai-fleet) |
 
 ### 6 · Open and source-available
 
 <p align="center">
   <a href="https://github.com/zyvorai/zyvor-guestkit"><img src="https://img.shields.io/badge/guestkit-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="guestkit"/></a>
   <a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://img.shields.io/badge/FluxVM-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="FluxVM"/></a>
+  <a href="https://github.com/zyvorai/Aether"><img src="https://img.shields.io/badge/Aether-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Aether"/></a>
   <a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://img.shields.io/badge/Kairon-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Kairon"/></a>
   <a href="https://github.com/zyvorai/zyvorai-fabric"><img src="https://img.shields.io/badge/Fabric-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Fabric"/></a>
   <a href="https://github.com/zyvorai/zyvor-kryton"><img src="https://img.shields.io/badge/Kryton-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Kryton"/></a>

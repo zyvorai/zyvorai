@@ -36,7 +36,7 @@ Zyvor sells a **suite** — migrate → run → operate → scale — with Commu
 - Not a contractual “99.99% forever” slogan  
 - Not a VMware clone for its own sake  
 - Not slideware without deployable software  
-- Not Aether — that product is retired; **Axiom** is the private-cloud control plane  
+- Not one runtime only — **Aether** moves the same workload across Podman, Kubernetes and KubeVirt; **Axiom** is the private-cloud control plane  
 
 ---
 

@@ -73,7 +73,7 @@
     <text x="80" y="292" font-size="13" fill="#a78bfa" font-weight="700">AI / GPU</text><text x="184" y="292" font-size="13" fill="#b4c0d0">Forge &#183; Gryvia &#183; Zynera &#183; Janus (sim)</text>
     <text x="80" y="320" font-size="13" fill="#f472b6" font-weight="700">TRUST</text><text x="184" y="320" font-size="13" fill="#b4c0d0">Ragnarok (confidential) &#183; Shukra (runtime)</text>
     <text x="80" y="348" font-size="13" fill="#facc15" font-weight="700">APPLE</text><text x="184" y="348" font-size="13" fill="#b4c0d0">Velora &#183; Gryvia for Apple &#183; Macora &#183; Nivora</text>
-    <text x="80" y="376" font-size="13" fill="#60a5fa" font-weight="700">DEPLOY</text><text x="184" y="376" font-size="13" fill="#b4c0d0">HyperCluster &#183; IronWolf &#183; Axiom &#183; Kubernetes</text>
+    <text x="80" y="376" font-size="13" fill="#60a5fa" font-weight="700">DEPLOY</text><text x="184" y="376" font-size="13" fill="#b4c0d0">HyperCluster &#183; IronWolf &#183; Axiom &#183; Aether &#183; K8s</text>
 
     <text x="80" y="410" font-size="14" fill="#7ef29a">&#10003; one platform &#183; one API &#183; one operating model</text>
 

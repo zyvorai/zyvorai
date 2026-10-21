@@ -68,6 +68,7 @@ Mac-native products and the Apple path of the stack: FluxVM drives Apple's Virtu
 | **Machina** | Private cloud on KVM — VMs, browser consoles, fleet HA/DRS and AI ops from three Rust binaries | [Site](https://zyvor.dev/machina) · [Repo](https://github.com/zyvorai/zyvor-machina) |
 | **Zorvia** | The control plane for KubeVirt VMs — CLI, TUI and web console on one API (Apache-2.0) | [Site](https://zyvor.dev/zorvia) · [Repo](https://github.com/zyvorai/zyvor-zorvia) |
 | **Zyvor Fabric** | Private cloud control plane for Linux — VMs, networking, storage, security; AI workloads (beta); Keep agent workstation (Apache-2.0) | [Site](https://zyvor.dev/zyvor-fabric) · [Repo](https://github.com/zyvorai/zyvorai-fabric) |
+| **Aether** | One YAML, three runtimes — deploy the same workload to Podman, Kubernetes and KubeVirt, score the lanes by cost, performance and reliability, and migrate between them (Apache-2.0, Rust) | [Site](https://zyvor.dev/aether) · [Repo](https://github.com/zyvorai/Aether) |
 | **Kairon** | Kubernetes-native VM orchestration without KubeVirt or libvirt — Kubernetes declares, Kairon orchestrates, FluxVM executes (Apache-2.0) | [Site](https://zyvor.dev/kairon) · [Repo](https://github.com/zyvorai/zyvor-kairon) |
 | **FluxVM** | Run real VMs with a real API — one Rust control plane over Firecracker / Cloud Hypervisor / QEMU-KVM / Apple Virtualization.framework, plus an in-tree hypervisor (Apache-2.0) | [Site](https://zyvor.dev/fluxvm) · [Repo](https://github.com/zyvorai/zyvor-fluxvm) |
 
@@ -133,7 +134,7 @@ Mac-native products and the Apple path of the stack: FluxVM drives Apple's Virtu
 ## Bundle narratives
 
 1. **Hypervisor exit** — Transiva + Scout + Chimera + h2kvm + GuestKit → [program](https://zyvor.dev/hypervisor-exit)  
-2. **Private cloud run** — Axiom + Zeus + Veyron + Kairon + FluxVM + Iris + Haven + Kryton + Atlas + Netra  
+2. **Private cloud run** — Axiom + Aether + Zeus + Veyron + Kairon + FluxVM + Iris + Haven + Kryton + Atlas + Netra  
 3. **AI / GPU estate** — Forge + Gryvia + Zynera + Janus (+ IronWolf for metal)  
 4. **Edge reliability** — Zyvor Relay + Nodra + Fleet + device-agent + ota  
 5. **Assurance** — Argus + Kairo + KubeFlight + Verixa + Kavira on every release train
