@@ -23,7 +23,7 @@
   <a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&logo=github&label=Kairon&labelColor=0c1222&color=14b8a6" alt="Kairon stars"/></a>
   <a href="https://github.com/zyvorai/zyvor-guestkit"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&logo=github&label=GuestKit&labelColor=0c1222&color=14b8a6" alt="GuestKit stars"/></a>
   <a href="https://github.com/zyvorai/velora"><img src="https://img.shields.io/github/stars/zyvorai/velora?style=flat-square&logo=github&label=Velora&labelColor=0c1222&color=ff8f3f" alt="Velora stars"/></a>
-  <a href="https://github.com/zyvorai/zyvor-gryvia-apple"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-gryvia-apple?style=flat-square&logo=github&label=Gryvia_Apple&labelColor=0c1222&color=ff8f3f" alt="Gryvia_Apple stars"/></a>
+  <a href="https://github.com/zyvorai/zyvor-gryvia-apple"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-gryvia-apple?style=flat-square&logo=github&label=Gryvia%20Apple&labelColor=0c1222&color=ff8f3f" alt="Gryvia_Apple stars"/></a>
   <a href="https://github.com/zyvorai/zyvor-netra"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-netra?style=flat-square&logo=github&label=Netra&labelColor=0c1222&color=14b8a6" alt="Netra stars"/></a>
   <a href="https://github.com/zyvorai/zyvor-macora"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-macora?style=flat-square&logo=github&label=Macora&labelColor=0c1222&color=ff8f3f" alt="Macora stars"/></a>
 </p>
