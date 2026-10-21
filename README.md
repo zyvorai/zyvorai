@@ -18,6 +18,16 @@
   <a href="https://zyvor.dev/docs">Docs</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-fluxvm?style=flat-square&logo=github&label=FluxVM&labelColor=0c1222&color=14b8a6" alt="FluxVM stars"/></a>
+  <a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&logo=github&label=Kairon&labelColor=0c1222&color=14b8a6" alt="Kairon stars"/></a>
+  <a href="https://github.com/zyvorai/zyvor-guestkit"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&logo=github&label=GuestKit&labelColor=0c1222&color=14b8a6" alt="GuestKit stars"/></a>
+  <a href="https://github.com/zyvorai/velora"><img src="https://img.shields.io/github/stars/zyvorai/velora?style=flat-square&logo=github&label=Velora&labelColor=0c1222&color=ff8f3f" alt="Velora stars"/></a>
+  <a href="https://github.com/zyvorai/zyvor-gryvia-apple"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-gryvia-apple?style=flat-square&logo=github&label=Gryvia_Apple&labelColor=0c1222&color=ff8f3f" alt="Gryvia_Apple stars"/></a>
+  <a href="https://github.com/zyvorai/zyvor-netra"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-netra?style=flat-square&logo=github&label=Netra&labelColor=0c1222&color=14b8a6" alt="Netra stars"/></a>
+  <a href="https://github.com/zyvorai/zyvor-macora"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-macora?style=flat-square&logo=github&label=Macora&labelColor=0c1222&color=ff8f3f" alt="Macora stars"/></a>
+</p>
+
 ---
 
 ## The pitch in 15 seconds
@@ -40,6 +50,29 @@
 </p>
 
 ---
+
+## Lanes at a glance
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/virtualize.svg?v=color3" width="100%" alt="Virtualize: FluxVM, Machina, Fabric"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/kubernetes.svg?v=color3" width="100%" alt="Kubernetes VMs: Kairon, Zorvia, Kryton"/></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/zyvor-transiva"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/migrate.svg?v=color3" width="100%" alt="Migrate: Transiva, GuestKit, h2kvm, Scout"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/zyvor-gryvia"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/ai.svg?v=color3" width="100%" alt="AI and GPU: Gryvia, Zyntra, Janus"/></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/zyvor-netra"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/ebpf.svg?v=color3" width="100%" alt="eBPF networking: Netra, Paqtra, Rivora, Shukra"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/nodra"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/edge.svg?v=color3" width="100%" alt="Edge and IoT: Nodra, Fleet, Device Agent, OTA"/></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/velora"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/apple.svg?v=color3" width="100%" alt="Apple Silicon: Velora, Gryvia for Apple, Macora, Nivora"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/zyvorai/zyvorai-argus"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/assurance.svg?v=color3" width="100%" alt="Assurance: Argus, Kairo, KubeFlight, Kavira"/></a></td>
+</tr>
+</table>
+
+New here? Start with **[START-HERE.md](START-HERE.md)**: pick your goal, get the products.
 
 ## Suite map
 
@@ -182,6 +215,7 @@ Marketing & product narrative for GitHub — not the website build.
 
 | Doc | |
 |-----|---|
+| [START-HERE.md](START-HERE.md) | Pick your goal, get the products |
 | [PRODUCTS.md](PRODUCTS.md) | Full selling catalog + CTAs |
 | [WHY-ZYVOR.md](WHY-ZYVOR.md) | Positioning for buyers & partners |
 | [CONTACT.md](CONTACT.md) | Intent-based routing |
