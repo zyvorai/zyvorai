@@ -23,7 +23,7 @@
   <a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&logo=github&label=Kairon&labelColor=0c1222&color=14b8a6" alt="Kairon stars"/></a>
   <a href="https://github.com/zyvorai/zyvor-guestkit"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&logo=github&label=GuestKit&labelColor=0c1222&color=14b8a6" alt="GuestKit stars"/></a>
   <a href="https://github.com/zyvorai/velora"><img src="https://img.shields.io/github/stars/zyvorai/velora?style=flat-square&logo=github&label=Velora&labelColor=0c1222&color=ff8f3f" alt="Velora stars"/></a>
-  <a href="https://github.com/zyvorai/zyvor-gryvia-apple"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-gryvia-apple?style=flat-square&logo=github&label=Gryvia%20Apple&labelColor=0c1222&color=ff8f3f" alt="Gryvia_Apple stars"/></a>
+  <a href="https://github.com/zyvorai/gryvia-apple"><img src="https://img.shields.io/github/stars/zyvorai/gryvia-apple?style=flat-square&logo=github&label=Gryvia%20Apple&labelColor=0c1222&color=ff8f3f" alt="Gryvia_Apple stars"/></a>
   <a href="https://github.com/zyvorai/zyvor-netra"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-netra?style=flat-square&logo=github&label=Netra&labelColor=0c1222&color=14b8a6" alt="Netra stars"/></a>
   <a href="https://github.com/zyvorai/zyvor-macora"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-macora?style=flat-square&logo=github&label=Macora&labelColor=0c1222&color=ff8f3f" alt="Macora stars"/></a>
 </p>
@@ -106,10 +106,10 @@ New here? Start with **[START-HERE.md](START-HERE.md)**: pick your goal, get the
 | | Product | Sell | |
 |---:|---------|------|---|
 | 16 | **[Velora](https://zyvor.dev/velora)** | VMs, models and clusters on your Mac — Linux and macOS guests, local MLX gateway, k3s, fleet | [GitHub](https://github.com/zyvorai/velora) |
-| 17 | **[Gryvia for Apple](https://zyvor.dev/gryvia)** | Your Macs, scheduled — multi-tenant control plane for Apple Silicon fleets | [GitHub](https://github.com/zyvorai/zyvor-gryvia-apple) |
+| 17 | **[Gryvia for Apple](https://zyvor.dev/gryvia)** | Your Macs, scheduled — multi-tenant control plane for Apple Silicon fleets | [GitHub](https://github.com/zyvorai/gryvia-apple) |
 | 18 | **[Macora](https://zyvor.dev/macora)** | Your Mac's network, made clear — SwiftUI app, CLI and TUI | [GitHub](https://github.com/zyvorai/zyvor-macora) |
-| 19 | **[Nivora](https://zyvor.dev/nivora)** | See every connection on your Mac, per app | [GitHub](https://github.com/zyvorai/zyvor-nivora) |
-| 20 | **[Vytrix](https://zyvor.dev/vytrix)** | Read-only activity monitor for macOS and Linux | [GitHub](https://github.com/zyvorai/zyvor-vytrix) |
+| 19 | **[Nivora](https://zyvor.dev/nivora)** | See every connection on your Mac, per app | [GitHub](https://github.com/zyvorai/nivora) |
+| 20 | **[Vytrix](https://zyvor.dev/vytrix)** | Read-only activity monitor for macOS and Linux | [GitHub](https://github.com/zyvorai/vytrix) |
 | 21 | **Solvor · Teryon** | Private file Q&A for Keep · persistent SSH shells in Rust | [Solvor](https://github.com/zyvorai/solvor) · [Teryon](https://github.com/zyvorai/teryon) |
 
 ### 4 · Operate
@@ -157,8 +157,8 @@ New here? Start with **[START-HERE.md](START-HERE.md)**: pick your goal, get the
   <a href="https://github.com/zyvorai/verixa"><img src="https://img.shields.io/badge/Verixa-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Verixa"/></a>
   <a href="https://github.com/zyvorai/kavira"><img src="https://img.shields.io/badge/Kavira-Apache--2.0-0c1222?style=flat-square&color=14b8a6" alt="Kavira"/></a>
   <a href="https://github.com/zyvorai/velora"><img src="https://img.shields.io/badge/Velora-BSL_1.1-0c1222?style=flat-square&color=ff8f3f" alt="Velora"/></a>
-  <a href="https://github.com/zyvorai/zyvor-gryvia-apple"><img src="https://img.shields.io/badge/Gryvia_Apple-BUSL--1.1-0c1222?style=flat-square&color=ff8f3f" alt="Gryvia_Apple"/></a>
-  <a href="https://github.com/zyvorai/zyvor-nivora"><img src="https://img.shields.io/badge/Nivora-BUSL--1.1-0c1222?style=flat-square&color=ff8f3f" alt="Nivora"/></a>
+  <a href="https://github.com/zyvorai/gryvia-apple"><img src="https://img.shields.io/badge/Gryvia_Apple-BUSL--1.1-0c1222?style=flat-square&color=ff8f3f" alt="Gryvia_Apple"/></a>
+  <a href="https://github.com/zyvorai/nivora"><img src="https://img.shields.io/badge/Nivora-BUSL--1.1-0c1222?style=flat-square&color=ff8f3f" alt="Nivora"/></a>
   <a href="https://github.com/zyvorai/chimera"><img src="https://img.shields.io/badge/Chimera-Apache--2.0-0c1222?style=flat-square&color=ff8f3f" alt="Chimera"/></a>
   <a href="https://github.com/zyvorai/janus"><img src="https://img.shields.io/badge/Janus-GPU_sim-0c1222?style=flat-square&color=ff8f3f" alt="Janus"/></a>
   <a href="https://github.com/zyvorai/kairo"><img src="https://img.shields.io/badge/Kairo-change_intel-0c1222?style=flat-square&color=f0583a" alt="Kairo"/></a>
