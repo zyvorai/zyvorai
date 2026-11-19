@@ -51,10 +51,10 @@ Only **public** repos are listed with links. Private products (Axiom, Ragnarok, 
 | Repo | Product |
 |------|---------|
 | [velora](https://github.com/zyvorai/velora) | Velora — VMs, MLX models and clusters on your Mac (release repo, BSL 1.1) |
-| [zyvor-gryvia-apple](https://github.com/zyvorai/zyvor-gryvia-apple) | Gryvia for Apple — Apple Silicon fleet scheduler (BUSL-1.1) |
+| [zyvor-gryvia-apple](https://github.com/zyvorai/gryvia-apple) | Gryvia for Apple — Apple Silicon fleet scheduler (BUSL-1.1) |
 | [zyvor-macora](https://github.com/zyvorai/zyvor-macora) | Macora — Mac network diagnosis (Apache-2.0) |
-| [zyvor-nivora](https://github.com/zyvorai/zyvor-nivora) | Nivora — per-app Mac network intelligence (BUSL-1.1) |
-| [zyvor-vytrix](https://github.com/zyvorai/zyvor-vytrix) | Vytrix — macOS/Linux activity monitor |
+| [zyvor-nivora](https://github.com/zyvorai/nivora) | Nivora — per-app Mac network intelligence (BUSL-1.1) |
+| [zyvor-vytrix](https://github.com/zyvorai/vytrix) | Vytrix — macOS/Linux activity monitor |
 | [solvor](https://github.com/zyvorai/solvor) | Solvor — Mac app for Keep |
 | [teryon](https://github.com/zyvorai/teryon) | Teryon — persistent SSH shells |
 | [zysign](https://github.com/zyvorai/zysign) | ZySign — macOS DSC toolkit |
