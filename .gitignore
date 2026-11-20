@@ -1,0 +1,8 @@
+# ZyvorAI marketing repo
+
+Ignore OS / editor noise only — this tree is documentation, not a build.
+
+.DS_Store
+*.swp
+.idea/
+.vscode/
